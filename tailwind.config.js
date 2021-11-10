@@ -8,16 +8,15 @@ module.exports = {
     extend: {
       colors: {
         cyan: colors.cyan,
+        "warm-gray": colors.warmGray,
       },
       cursor: {
         'grab': 'grab',
       },
       fill: {
-        black: colors.black,
         blue: colors.blue,
         red: colors.red,
         white: colors.white,
-        gray: colors.coolGray,
       },
       fontFamily: {
         sans: ["'Open Sans'", ...defaultTheme.fontFamily.sans],
@@ -29,8 +28,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      brightness: ['hover', 'focus'],
-      filter: ['hover', 'focus'],
+      rotate: ['group-hover'],
     },
   },
   plugins: [],

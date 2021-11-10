@@ -23,7 +23,7 @@ export const Projects: FC = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-center items-center py-8"
+      className="flex flex-col justify-center items-center py-8 space-y-8"
     >
       <div className="">
         <h2 className="text-3xl md:text-4xl font-bold text-center">
@@ -32,7 +32,7 @@ export const Projects: FC = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-11/12 md:4/12">
+      <div className="flex flex-col justify-center items-center w-11/12 md:w-9/12 max-w-5xl">
         <div className="hidden md:flex self-end space-x-4">
           <button
             onClick={() => scroll(-300)}
