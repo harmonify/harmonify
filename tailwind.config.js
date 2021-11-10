@@ -11,13 +11,13 @@ module.exports = {
       },
       cursor: {
         'grab': 'grab',
-        'grabbing': 'grabbing',
       },
       fill: {
         black: colors.black,
         blue: colors.blue,
         red: colors.red,
         white: colors.white,
+        gray: colors.coolGray,
       },
       fontFamily: {
         sans: ["'Open Sans'", ...defaultTheme.fontFamily.sans],
@@ -28,7 +28,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      brightness: ['hover', 'focus'],
+      filter: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
