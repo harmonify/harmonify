@@ -17,12 +17,12 @@ export const About: React.FC<AboutProps> = () => {
         </h2>
       </div>
 
-      <div className="flex justify-center items-center space-x-24">
-        <div className="relative group bg-white border-2 shadow-lg px-6 pt-6 pb-32 rounded-lg transform -rotate-6 hover:rotate-0 duration-300">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-x-24">
+        <div className="relative bg-white border-2 shadow-lg px-6 pt-6 pb-24 md:pb-32 rounded-lg group md:transform md:-rotate-6 md:hover:rotate-0 duration-300">
           <div className="w-80 h-80 overflow-hidden">
             <img
               src={me}
-              className="transform scale-125 rotate-6 group-hover:rotate-0 duration-300"
+              className="transform scale-125 md:rotate-6 md:group-hover:rotate-0 duration-300"
               alt="profile"
             />
           </div>
