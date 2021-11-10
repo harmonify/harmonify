@@ -22,7 +22,9 @@
 }
 
 @layer components {
+
 }
 
 @layer utilities {
+  @import url("./blinking-cursor.css");
 }

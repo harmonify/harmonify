@@ -1,0 +1,16 @@
+.blinking-cursor {
+  animation: 1s blink step-end infinite;
+}
+
+.blinking-cursor::after {
+  content: '|';
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: currentColor;
+  }
+}
