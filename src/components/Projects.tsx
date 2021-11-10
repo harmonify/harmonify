@@ -1,6 +1,6 @@
 import { FC, MutableRefObject, useEffect, useRef } from "react";
 import { BsFillArrowRightCircleFill, BsFillArrowLeftCircleFill } from "react-icons/bs";
-import { Card } from "./Card";
+import { Card } from "./ProjectCard";
 import ScrollContainer from "react-indiana-drag-scroll";
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
