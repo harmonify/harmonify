@@ -3,7 +3,7 @@ import { FC, ReactNode} from 'react';
 interface LinkProps {
   children: ReactNode,
   className?: string,
-  href?: string,
+  href: string,
   id?: string,
   label?: string,
 };

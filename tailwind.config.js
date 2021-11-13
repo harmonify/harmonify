@@ -41,6 +41,7 @@ module.exports = {
     extend: {
       fill: ['hover', 'group-hover', 'focus'],
       rotate: ['group-hover'],
+      visibility: ['group-hover'],
     },
   },
   plugins: [],
