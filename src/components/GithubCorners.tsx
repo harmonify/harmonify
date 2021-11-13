@@ -1,6 +1,6 @@
 import React from 'react';
 import GitHubCorners from '@uiw/react-github-corners';
-import { APP_SOURCE_CODE_LINK } from '../config/CONSTANTS';
+import { APP } from '../config/APP';
 
 interface GithubCornersProps {
   
@@ -9,9 +9,11 @@ interface GithubCornersProps {
 export const GithubCorners: React.FC<GithubCornersProps> = () => {
   return (
     <GitHubCorners
-      href={APP_SOURCE_CODE_LINK}
+      bgColor="#f07400"
+      href={APP.src}
       position="right"
-      size={95}
+      size={120}
+      className="z-50"
     />
   );
 }

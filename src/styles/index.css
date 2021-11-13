@@ -27,4 +27,5 @@
 
 @layer utilities {
   @import url("./blinking-cursor.css");
+  @import url("./bg-pattern.css");
 }
