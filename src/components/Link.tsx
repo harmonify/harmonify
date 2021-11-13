@@ -5,14 +5,16 @@ interface LinkProps {
   className?: string,
   href?: string,
   id?: string,
+  label?: string,
 };
 
-export const Link : FC<LinkProps> = ({ children, className = '', href = '#', id = '' }) => {
+export const Link : FC<LinkProps> = ({ children, className = '', href = '#', id = '', label ='' }) => {
   return (
     <a
       className={className}
       id={id}
       href={href}
+      aria-label={label}
       target="_blank"
       rel="noopener noreferrer"
     >
