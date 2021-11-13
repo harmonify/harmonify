@@ -6,8 +6,12 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      borderWidth: {
+        3: '3px',
+      },
       colors: {
         cyan: colors.cyan,
+        orange: colors.orange,
         "warm-gray": colors.warmGray,
       },
       cursor: {
@@ -17,17 +21,25 @@ module.exports = {
         blue: colors.blue,
         red: colors.red,
         white: colors.white,
+        orange: colors.orange,
       },
       fontFamily: {
         sans: ["'Open Sans'", ...defaultTheme.fontFamily.sans],
       },
       height: {
         '124': '31rem',
+      },
+      minHeight: {
+        '80vh': '80vh',
+      },
+      space: {
+        '18': '4.5rem',
       }
     },
   },
   variants: {
     extend: {
+      fill: ['hover', 'group-hover', 'focus'],
       rotate: ['group-hover'],
     },
   },
