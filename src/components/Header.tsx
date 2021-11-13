@@ -1,4 +1,4 @@
-import React from 'react'
+import { FC } from 'react'
 import { APP } from '../config/APP';
 import { getRoles } from '../utilities/getRoles';
 
@@ -6,7 +6,7 @@ interface HeaderProps {
   
 }
 
-export const Header: React.FC<HeaderProps> = ({}) => {
+export const Header: FC<HeaderProps> = () => {
   const roles = getRoles();
 
   return (
