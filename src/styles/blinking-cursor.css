@@ -1,8 +1,16 @@
 .blinking-cursor {
+  position: relative;
+  display: inline-block;
   animation: 1s blink step-end infinite;
 }
 
 .blinking-cursor::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  position: relative;
+  top: -0.3rem;
+  scale: 1.2;
   content: '|';
 }
 
