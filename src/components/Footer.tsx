@@ -66,7 +66,7 @@ export const Footer: FC<FooterProps> = () => {
           id="linkedin"
           href={APP.author.socials.linkedin}
         >
-          <BsLinkedin className="bg-white group-hover:bg-orange-500 fill-blue-500 group-hover:fill-white text-3xl md:text-4xl duration-200" />
+          <BsLinkedin className="bg-white group-hover:bg-orange-500 group-hover:fill-white text-3xl md:text-4xl duration-200" />
        </SocialLink>
       </section>
     </footer>
