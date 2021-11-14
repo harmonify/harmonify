@@ -28,4 +28,13 @@
 @layer utilities {
   @import url("./blinking-cursor.css");
   @import url("./bg-pattern.css");
+  @variants responsive {
+    .masonry-2-col {
+      column-count: 2;
+      column-gap: 1em;
+    }
+    .masonry-2-col > * {
+      break-inside: avoid;
+    }
+  }
 }

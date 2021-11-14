@@ -3,7 +3,7 @@ import { GithubCorners } from './components/GithubCorners';
 import { Header } from './pages/Home/Header';
 import { About } from './pages/Home/About';
 import { Projects } from './pages/Home/Projects';
-import { Skills } from './pages/Home/Skills/Skills';
+import { Skills } from './pages/Home/Skills';
 import { WorkExperiences } from './pages/Home/WorkExperiences';
 import { StudyExperiences } from './pages/Home/StudyExperiences';
 import { Footer } from './pages/Home/Footer';

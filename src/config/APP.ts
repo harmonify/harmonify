@@ -141,41 +141,54 @@ export const APP : AppInterface = {
     },
     skills: [
       {
-        title: "HTML",
-        icon: "fab fa-html5",
+        title: "HTML and CSS",
+        items: [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "Tailwind CSS",
+        ],
       },
       {
-        title: "CSS",
-        icon: "fab fa-css3-alt",
+        title: "Programming Languages",
+        items: [
+          "JavaScript",
+          "TypeScript",
+          "PHP",
+        ],
       },
       {
-        title: "JavaScript",
-        icon: "fab fa-js",
+        title: "Database",
+        items: [
+          "MySQL",
+          "MongoDB",
+        ],
       },
       {
-        title: "React",
-        icon: "fab fa-react",
+        title: "Frameworks",
+        items: [
+          "Laravel",
+          "Node.js",
+          "React",
+          "Angular (learning)",
+          "NestJS (learning)",
+        ],
       },
       {
-        title: "TypeScript",
-        icon: "fab fa-typescript",
+        title: "Tools",
+        items: [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Docker",
+        ],
       },
       {
-        title: "Node.js",
-        icon: "fab fa-node",
+        title: "Others",
+        items: [
+          "Linux (basic command-line operations)",
+        ],
       },
-      {
-        title: "Git",
-        icon: "fab fa-git",
-      },
-      {
-        title: "GitHub",
-        icon: "fab fa-github",
-      },
-      {
-        title: "GitHub Pages",
-        icon: "fab fa-github-alt",
-      },
-    ]
+    ],
   },
 };
