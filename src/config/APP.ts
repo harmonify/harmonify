@@ -14,7 +14,7 @@ export const APP : AppInterface = {
     nationality: "Indonesia",
     about: [
       "I'm Wendy, a web developer based in Pontianak, Indonesia. I've spent my time developing my skills and experiences by doing freelance projects .",
-      "I'm passionate about IT especially in the field of web development and AI. I love to learn new technologies, what problems are they solving and how can I utilize them to build better things.",
+      "I'm passionate about IT especially in the field of web development and AI. I love to learn new technologies, what problems are they solving, and how I can utilize them to build better things.",
     ],
     avatar: "/img/avatar.jpg",
     email: "wendy18.sw@gmail.com",
