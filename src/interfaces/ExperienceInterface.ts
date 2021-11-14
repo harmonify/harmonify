@@ -1,7 +1,12 @@
 export interface ExperienceInterface {
   title: string;
-  company: string;
+  titleLink?: string;
+  subtitle: string;
   date: string;
-  location?: string;
   description: string;
+  items: {
+    name: string,
+    link?: string,
+  }[];
+  location?: string;
 }

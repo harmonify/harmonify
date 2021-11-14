@@ -10,7 +10,8 @@ export interface AuthorInterface {
   about: string[];
   avatar: string;
   email: string;
-  experiences?: ExperienceInterface[];
+  workExperiences?: ExperienceInterface[];
+  studyExperiences?: ExperienceInterface[];
   socials: SocialInterface;
   projects: ProjectInterface[];
   skills: SkillInterface[];
