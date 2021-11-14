@@ -8,6 +8,7 @@ import ScrollContainer from "react-indiana-drag-scroll";
 import { APP } from "../../config/APP";
 import { Stripes } from "../../components/Stripes";
 import { Title } from "../../components/Title";
+import { Section } from "../../components/Section";
 
 export const Projects: FC = () => {
   const ref: MutableRefObject<any> = useRef(null);
@@ -26,12 +27,10 @@ export const Projects: FC = () => {
   };
 
   return (
-    <section
-      id="projects"
-      className="flex flex-col justify-center items-center py-8 space-y-8"
-    >
+    <Section id="projects">
       <Title href="#projects">
-        Projects
+        Personal&nbsp;
+        <span className="text-orange-600">Projects</span>&nbsp;
         <span className="ml-2">✏</span>
       </Title>
 
@@ -61,6 +60,6 @@ export const Projects: FC = () => {
           - Drag to Scroll Horizontally -
         </p>
       </div>
-    </section>
+    </Section>
   );
 };

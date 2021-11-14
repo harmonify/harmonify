@@ -2,6 +2,7 @@ import { FC } from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 import { APP } from "../../config/APP";
 import { getAbout } from "../../utilities/getAbout";
+import { Section } from "../../components/Section";
 import { Stripes } from "../../components/Stripes";
 import { Title } from "../../components/Title";
 
@@ -11,10 +12,7 @@ export const About: FC<AboutProps> = () => {
   const about = getAbout();
 
   return (
-    <section
-      id="about"
-      className="flex flex-col justify-center items-center py-8 space-y-8"
-    >
+    <Section id="about">
       <Title href="#about">
         About&nbsp;
         <span className="text-orange-600">Me</span>
@@ -49,6 +47,6 @@ export const About: FC<AboutProps> = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };

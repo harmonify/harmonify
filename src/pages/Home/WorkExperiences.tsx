@@ -3,14 +3,14 @@ import { Timeline } from "../../components/Timeline";
 import { Title } from "../../components/Title";
 import { APP } from "../../config/APP";
 import { Stripes } from "../../components/Stripes";
+import { Section } from "../../components/Section";
 
 interface WorkExperiencesProps {}
 
 export const WorkExperiences: FC<WorkExperiencesProps> = () => {
   return (
-    <section
+    <Section
       id="work-experience"
-      className="w-11/12 max-w-5xl flex flex-col justify-center items-center py-8 space-y-8 mx-auto"
     >
       <Title href="#work-experience">
         Work&nbsp;
@@ -20,7 +20,9 @@ export const WorkExperiences: FC<WorkExperiencesProps> = () => {
 
       <Stripes />
 
-      <Timeline experiences={APP.author.workExperiences} />
-    </section>
+      <div className="w-11/12 max-w-5xl">
+        <Timeline experiences={APP.author.workExperiences} />
+      </div>
+    </Section>
   );
 };

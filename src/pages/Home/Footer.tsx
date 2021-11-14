@@ -2,6 +2,7 @@ import { FC, ReactElement } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { APP } from "../../config/APP";
 import { Link } from "../../components/Link";
+import { Panel } from "../../components/Panel";
 
 interface SocialLinkProps {
   id: string;
@@ -26,16 +27,12 @@ const SocialLink: FC<SocialLinkProps> = ({ id, href, children }) => (
 export const Footer: FC<FooterProps> = () => {
   return (
     <footer className="flex flex-col justify-center items-center py-8 md:py-16 space-y-6">
-      <article
-        id="contact"
-        className="w-11/12 max-w-5xl flex flex-col md:flex-row justify-between items-center px-16 py-12 space-y-8 md:space-y-0 md:space-x-18 border border-opacity-25 border-gray-500 shadow-md rounded-2xl"
-      >
+      <Panel className="w-11/12 max-w-5xl flex flex-col md:flex-row justify-between items-center px-16 py-12 space-y-8 md:space-y-0 md:space-x-18">
         <div className="space-y-4">
           <h2 className="text-center md:text-left text-3xl font-bold">
-            I'm{" "}
-            <span className="text-orange-600">
-              available for every opportunity!
-            </span>
+            I'm&nbsp;
+            <span className="text-orange-600">available</span>
+            &nbsp;for every opportunity!
           </h2>
           <p className="text-lg">
             Interested in working with me? Or just wanna say hi? I'd love to
@@ -43,7 +40,7 @@ export const Footer: FC<FooterProps> = () => {
           </p>
         </div>
 
-        <div className="space-y-6 text-center">
+        <section id="contact" className="space-y-6 text-center">
           <Link
             href="#contact"
             iconEnabled={true}
@@ -63,8 +60,8 @@ export const Footer: FC<FooterProps> = () => {
               {APP.author.email}
             </h3>
           </Link>
-        </div>
-      </article>
+        </section>
+      </Panel>
 
       <section id="social-link" className="flex space-x-8">
         <SocialLink id="github" href={APP.author.socials.github}>

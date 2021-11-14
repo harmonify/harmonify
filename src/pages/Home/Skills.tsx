@@ -4,6 +4,7 @@ import { Panel } from "../../components/Panel";
 import { Title } from "../../components/Title";
 import { APP } from "../../config/APP";
 import { BsLink } from "react-icons/bs";
+import { Section } from "../../components/Section";
 
 interface SkillsProps {}
 
@@ -23,9 +24,8 @@ const getChains = (n: number) => {
 
 export const Skills: React.FC<SkillsProps> = () => {
   return (
-    <section
+    <Section
       id="skills"
-      className="flex flex-col justify-center items-center py-8 space-y-8"
     >
       <Title href="#skills">
         My&nbsp;
@@ -57,6 +57,6 @@ export const Skills: React.FC<SkillsProps> = () => {
           </div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };

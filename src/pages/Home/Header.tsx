@@ -31,4 +31,3 @@ export const Header: FC<HeaderProps> = () => {
     </header>
   );
 }
-
