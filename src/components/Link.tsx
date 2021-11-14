@@ -4,7 +4,7 @@ import { FaLink } from "react-icons/fa";
 interface LinkProps {
   children: ReactNode;
   className?: string;
-  href: string;
+  href: string | undefined;
   id?: string;
   label?: string;
   newTab?: boolean;
@@ -15,11 +15,11 @@ interface LinkProps {
 
 export const Link: FC<LinkProps> = ({
   children,
+  href,
   className = "",
-  href = "#",
   id = "",
   label = "",
-  newTab = true,
+  newTab = false,
   iconEnabled = false,
   iconPosition = "left",
   iconClassName = "",
@@ -32,7 +32,7 @@ export const Link: FC<LinkProps> = ({
 
   return (
     <a
-      className={`group ${className}`}
+      className={`${href ? 'group' : 'group pointer-events-none'} ${className}`}
       id={id}
       href={href}
       aria-label={label}

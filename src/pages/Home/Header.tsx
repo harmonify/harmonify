@@ -16,8 +16,7 @@ export const Header: FC<HeaderProps> = () => {
       <div className="z-50">
         <p className="text-xl md:text-2xl">
           <span>👋&nbsp;</span>
-          <span className="font-semibold">Hi!</span>
-          &nbsp;Welcome, I'm
+          &nbsp;<span className="font-semibold">Welcome, I'm</span>
         </p>
         <h1 className="text-orange-500 text-4xl md:text-5xl font-semibold my-4">{APP.author.name}</h1>
         <p className="text-xl md:text-2xl">

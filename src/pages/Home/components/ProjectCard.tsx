@@ -22,6 +22,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({id, project}) => {
           {project.demo && (
             <Link
               href={project.demo}
+              newTab={true}
               className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-orange-600 hover:bg-orange-500 font-semibold text-white"
             >
               <BsEye className="inline-block" />
@@ -31,6 +32,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({id, project}) => {
           {project.src && (
             <Link
               href={project.src}
+              newTab={true}
               className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-gray-700 hover:bg-gray-600 font-semibold text-white"
             >
               <BsGithub className="inline-block" />

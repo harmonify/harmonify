@@ -77,9 +77,8 @@ export const APP : AppInterface = {
     ],
     workExperiences: [
       {
-        title: "projects.co.id",
-        titleLink: "https://projects.co.id/",
-        subtitle: "Freelance Web Developer",
+        title: "Freelance Web Developer",
+        subtitle: "projects.co.id",
         date: "May 2021 - present",
         description: "I've been working as a freelance web developer for more than half a year. I've been working on projects such as:",
         items: [
