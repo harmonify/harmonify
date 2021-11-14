@@ -11,7 +11,7 @@ export const Header: FC<HeaderProps> = () => {
 
   return (
     <header className="relative flex flex-col justify-center items-center min-h-80vh md:min-h-screen overflow-hidden text-center">
-      <div className="absolute p-80 md:rounded-full bg-pattern opacity-40 z-10" />
+      <div className="absolute block p-80 md:rounded-full bg-pattern opacity-40 z-10 ring-inset ring-8 ring-opacity-60 ring-white" />
 
       <div className="z-50">
         <p className="text-xl md:text-2xl">

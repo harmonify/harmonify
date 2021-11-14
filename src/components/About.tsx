@@ -1,38 +1,25 @@
 import { FC } from "react";
 import { GoPrimitiveDot } from "react-icons/go";
 import { APP } from "../config/APP";
-import { Stripes } from './Stripes';
+import { getAbout } from "../utilities/getAbout";
+import { Stripes } from "./Stripes";
+import { Title } from "./Title";
 
-interface AboutProps {
-
-}
+interface AboutProps {}
 
 export const About: FC<AboutProps> = () => {
-  const about = APP.author.about
-    .slice(0, -1)
-    .map((paragraph, index) => (
-      <p key={index} className="mb-2">
-        {paragraph}
-      </p>
-    ))
-    .concat(
-      <p className="mb-2">
-        {APP.author.about.slice(-1)[0]}
-        <span className="ml-px blinking-cursor" />
-      </p>
-    );
+  const about = getAbout();
 
   return (
     <section
-      id="about-me"
+      id="about"
       className="flex flex-col justify-center items-center py-8 space-y-8"
     >
-      <div className="">
-        <h2 className="text-3xl md:text-4xl font-bold text-center">
-          <span className="text-black">About</span> <span className="text-orange-600">Me</span>
-          <span className="ml-2">📕</span>
-        </h2>
-      </div>
+      <Title href="#about">
+        About&nbsp;
+        <span className="text-orange-600">Me</span>
+        <span className="ml-2">📕</span>
+      </Title>
 
       <Stripes />
 
