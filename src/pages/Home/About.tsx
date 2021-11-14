@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { GoPrimitiveDot } from "react-icons/go";
-import { APP } from "../config/APP";
-import { getAbout } from "../utilities/getAbout";
-import { Stripes } from "./Stripes";
-import { Title } from "./Title";
+import { APP } from "../../config/APP";
+import { getAbout } from "../../utilities/getAbout";
+import { Stripes } from "../../components/Stripes";
+import { Title } from "../../components/Title";
 
 interface AboutProps {}
 

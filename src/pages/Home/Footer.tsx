@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { APP } from "../config/APP";
-import { Link } from "./Link";
+import { APP } from "../../config/APP";
+import { Link } from "../../components/Link";
 
 interface SocialLinkProps {
   id: string;

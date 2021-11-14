@@ -3,11 +3,11 @@ import {
   BsFillArrowRightCircleFill,
   BsFillArrowLeftCircleFill,
 } from "react-icons/bs";
-import { ProjectCard } from "./ProjectCard";
+import { ProjectCard } from "./components/ProjectCard";
 import ScrollContainer from "react-indiana-drag-scroll";
 import { APP } from "../../config/APP";
-import { Stripes } from "../Stripes";
-import { Title } from "../Title";
+import { Stripes } from "../../components/Stripes";
+import { Title } from "../../components/Title";
 
 export const Projects: FC = () => {
   const ref: MutableRefObject<any> = useRef(null);

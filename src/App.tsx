@@ -1,14 +1,14 @@
-import React from 'react';
-import { About } from './components/About';
-import { Footer } from './components/Footer';
+import { ReactElement } from 'react';
 import { GithubCorners } from './components/GithubCorners';
-import { Header } from './components/Header';
-import { Projects } from './components/Projects/Projects';
-import { Skills } from './components/Skills/Skills';
-import { WorkExperiences } from './components/WorkExperiences';
-import { StudyExperiences } from './components/StudyExperiences';
+import { Header } from './pages/Home/Header';
+import { About } from './pages/Home/About';
+import { Projects } from './pages/Home/Projects';
+import { Skills } from './pages/Home/Skills/Skills';
+import { WorkExperiences } from './pages/Home/WorkExperiences';
+import { StudyExperiences } from './pages/Home/StudyExperiences';
+import { Footer } from './pages/Home/Footer';
 
-function App() {
+function App() : ReactElement {
   return (
     <div className="flex flex-col">
       <GithubCorners />

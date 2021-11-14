@@ -1,6 +1,6 @@
 import { FC } from 'react'
-import { APP } from '../config/APP';
-import { getRoles } from '../utilities/getRoles';
+import { APP } from '../../config/APP';
+import { getRoles } from '../../utilities/getRoles';
 
 interface HeaderProps {
   

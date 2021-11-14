@@ -1,7 +1,7 @@
 import React from "react";
 import { BsEye, BsGithub } from "react-icons/bs";
-import { ProjectInterface } from "../../interfaces/ProjectInterface";
-import { Link } from "../Link";
+import { ProjectInterface } from "../../../interfaces/ProjectInterface";
+import { Link } from "../../../components/Link";
 
 interface ProjectCardProps {
   id: number;

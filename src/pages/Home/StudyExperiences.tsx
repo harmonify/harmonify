@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { Timeline } from "./Timeline";
-import { Title } from "./Title";
-import { APP } from "../config/APP";
-import { Stripes } from "./Stripes";
+import { Timeline } from "../../components/Timeline";
+import { Title } from "../../components/Title";
+import { APP } from "../../config/APP";
+import { Stripes } from "../../components/Stripes";
 
 interface StudyExperiencesProps {}
 
-export const StudyExperiences: FC<StudyExperiencesProps> = ({}) => {
+export const StudyExperiences: FC<StudyExperiencesProps> = () => {
   return (
     <section
       id="courses"
