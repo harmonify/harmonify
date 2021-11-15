@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Hi there! I'm Wendy Surya Wijaya <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-3b5998?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/wendy-surya-wijaya)
+[![Homepage Badge](https://img.shields.io/badge/Homepage-334155?style=flat-square&logo=github&logoColor=white)](https://harmonify.github.io)
 
-## Available Scripts
+A freelance web developer from Indonesia. [**My Github Homepage**](https://harmonify.github.io).
 
-In the project directory, you can run:
+<p float="left">
+    <img height="135em" src="https://github-readme-stats.vercel.app/api?username=harmonify&show_icons=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=0F172A&border_color=262626&title_color=EA580C&text_color=FFFFFF&icon_color=EA580C" alt="my stats"></img>
+    <img height="135em" src="https://github-readme-stats.vercel.app/api/top-langs?username=harmonify&layout=compact&show_icons=true&count_private=true&include_all_commits=true&bg_color=0F172A&border_color=262626&title_color=EA580C&text_color=FFFFFF&icon_color=EA580C&show_icons=true" alt="my top langs"></img>
+</p>
 
-### `npm start`
+## 💌 Keep In Touch With Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+✔️ **I'm currently open for every opportunity!**
+Interested in working with me? Or just wanna say hi? I’d love to hear from you.
+> **wendy18.sw@gmail.com**
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Visitors Badge](https://visitor-badge.glitch.me/badge?page_id=harmonify.harmonify&left_color=orange&right_color=black&text_color=white&background_color=black&font_size=20&font_family=Arial&font_weight=bold&font_style=normal&text=visitors)
