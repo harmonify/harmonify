@@ -22,7 +22,7 @@ export const APP : AppInterface = {
       {
         title: "Web Portfolio",
         description: "A web portfolio created using React and TypeScript",
-        image: "https://raw.githubusercontent.com/harmonify/harmonify.github.io/main/.github/img/preview.png",
+        image: "https://raw.githubusercontent.com/harmonify/harmonify.github.io/main/public/img/banner.png",
         src: "https://www.github.com/harmonify/harmonify.github.io",
         demo: "https://harmonify.github.io",
       },
