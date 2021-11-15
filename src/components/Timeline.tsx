@@ -10,18 +10,18 @@ interface TimelineProps {
 
 const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
   <div className={`py-7 px-5 border-l-2 border-orange-500 ${className}`}>
-    {experiences?.map((experience) => {
+    {experiences?.map((experience, index) => {
       const { title, titleLink, subtitle, date, description, items } = experience;
 
       return (
-        <div className="mb-10">
+        <div key={index} className="mb-10">
           <div className="relative">
             <span
               className="absolute w-3 h-3 bg-orange-500 rounded-full"
               style={{ left: "-1.7rem", bottom: ".5rem" }}
             />
 
-            <span className="text-xs inline-block py-1 px-5 rounded-full border border-orange-500">
+            <span className="inline-block py-1 px-5 rounded-full border border-orange-500">
               {date}
             </span>
           </div>
@@ -38,17 +38,17 @@ const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
                   {title}
                 </Link>
               </h3>
-              <h4 className="text-md md:text-lg text-orange-600 font-semibold tracking-wider">
+              <h4 className="text-md md:text-lg text-orange-600 font-550">
                 {subtitle}
               </h4>
             </div>
 
-            <div className="md:text-base text-gray col-span-3">
+            <div className="md:text-base col-span-3">
               <p className="mb-2">{description}</p>
 
-              <ul className="list-inside list-disc relative">
-                {items.map((item, index) => (
-                  <li className={item.link ? 'hover:text-orange-600' : ''} key={index}>
+              <ul className="list-inside list-disc">
+                {items.map((item, i) => (
+                  <li className={item.link ? 'hover:text-orange-600' : '' } key={i}>
                     <Link href={item.link} newTab={true}>
                       {item.name}
                     </Link>

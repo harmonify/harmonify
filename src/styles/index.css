@@ -3,7 +3,25 @@
 @tailwind utilities;
 
 @layer base {
-  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap");
+  @font-face {
+    font-family: "Baloo 2";
+    src: url('../assets/fonts/baloo-2/bold.ttf');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    src: url('../assets/fonts/comfortaa/regular.ttf');
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Comfortaa";
+    font-weight: 600;
+    src: url('../assets/fonts/comfortaa/semibold.ttf');
+    font-display: swap;
+  }
 
   body {
     @apply m-0;
@@ -19,15 +37,25 @@
   body {
     @apply overflow-x-hidden;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Baloo 2";
+  }
 }
 
 @layer components {
-
 }
 
 @layer utilities {
   @import url("./blinking-cursor.css");
   @import url("./bg-pattern.css");
+  @import url("./bg-pattern-dark.css");
+
   @variants responsive {
     .masonry-2-col {
       column-count: 2;

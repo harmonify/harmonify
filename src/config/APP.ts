@@ -1,8 +1,8 @@
 import { AppInterface } from '../interfaces/AppInterface';
 
 export const APP : AppInterface = {
-  name: "Web Portfolio",
-  description: "Web Portfolio created using React and TypeScript",
+  name: "Wendy Surya Wijaya",
+  description: "Wendy Surya Wijaya is a freelance web developer from Indonesia.",
   version: "1.0.0",
   src: "https://www.github.com/harmonify/harmonify.github.io",
   homepage: "https://harmonify.github.io",
@@ -13,8 +13,8 @@ export const APP : AppInterface = {
     ],
     nationality: "Indonesia",
     about: [
-      "I'm Wendy, a web developer based in Pontianak, Indonesia. I've spent my time developing my skills and experiences by doing freelance projects .",
-      "I'm passionate about IT especially in the field of web development and AI. I love to learn new technologies, what problems are they solving, and how I can utilize them to build better things.",
+      "I'm Wendy, a web developer based in Pontianak, Indonesia. I'm currently majoring in Informatics Engineering at STMIK Pontianak.",
+      "I'm passionate about IT, especially in the field of web development and AI. I love to learn new technologies, what problems they are solving, and how I can utilize them to build better things.",
     ],
     avatar: "/img/avatar.jpg",
     email: "wendy18.sw@gmail.com",

@@ -26,26 +26,26 @@ export const Footer: FC<FooterProps> = () => {
 };
 
 const Contact: FC<ContactProps> = () => (
-  <Panel className="w-11/12 max-w-5xl flex flex-col md:flex-row justify-between items-center px-16 py-12 space-y-8 md:space-y-0 md:space-x-18">
-    <div className="space-y-4">
-      <h2 className="text-center md:text-left text-3xl font-bold">
+  <Panel className="w-11/12 max-w-5xl flex flex-col lg:flex-row justify-between items-center px-16 py-12 space-y-8 lg:space-y-0 lg:space-x-18 dark:bg-blue-gray-900 dark:bg-opacity-60">
+    <div className="space-y-4 lg:w-2/3 text-center lg:text-left">
+      <h2 className="text-3xl ">
         I'm&nbsp;
         <span className="text-orange-600">available</span>
         &nbsp;for every opportunity!
       </h2>
-      <p className="text-lg">
+      <p className="text-lg font-comfortaa">
         Interested in working with me? Or just wanna say hi? I'd love to hear
         from you.
       </p>
     </div>
 
-    <section id="contact" className="space-y-6 text-center">
+    <section id="contact" className="space-y-6 text-center flex flex-col lg:w-1/3">
       <Link
         href="#contact"
         iconEnabled={true}
-        iconClassName="transform -translate-y-1"
+        iconClassName="left-4 bottom-0"
       >
-        <h2 className="inline-block text-2xl text-orange-600 font-bold">
+        <h2 className="inline-block text-3xl text-orange-600 ">
           Contact me 📧
         </h2>
       </Link>
@@ -55,7 +55,7 @@ const Contact: FC<ContactProps> = () => (
         newTab={true}
         className="relative inline-block group"
       >
-        <h3 className="px-6 py-2 rounded-3xl font-mono tracking-wider text-white text-xl font-semibold z-50 bg-gradient-to-r from-orange-500 hover:from-orange-400 via-orange-600 hover:via-orange-500 to-orange-600 hover:to-orange-500 duration-500">
+        <h3 className="px-6 py-2 rounded-3xl tracking-wider text-white text-xl z-50 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-600 duration-500 transform hover:scale-110 translate-y-2 font-baloo">
           {APP.author.email}
         </h3>
       </Link>
@@ -78,11 +78,11 @@ const SocialLinkButton: FC<SocialLinkButtonProps> = ({ id, href, children }) => 
 const SocialLinks: FC<SocialLinksProps> = () => (
   <section id="social-link" className="flex space-x-8">
     <SocialLinkButton id="github" href={APP.author.socials.github}>
-      <BsGithub className="text-3xl md:text-4xl group-hover:bg-orange-500 group-hover:text-white duration-200" />
+      <BsGithub className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:text-white duration-200" />
     </SocialLinkButton>
 
     <SocialLinkButton id="linkedin" href={APP.author.socials.linkedin}>
-      <BsLinkedin className="bg-white group-hover:bg-orange-500 group-hover:fill-white text-3xl md:text-4xl duration-200" />
+      <BsLinkedin className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:fill-white duration-200" />
     </SocialLinkButton>
   </section>
 );

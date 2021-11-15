@@ -1,21 +1,34 @@
-const colors = require('tailwindcss/colors')
-const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'class', // or 'media' or 'class'
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       borderWidth: {
-        3: '3px',
+        3: "3px",
       },
       colors: {
+        amber: colors.amber,
+        "blue-gray": colors.blueGray,
         cyan: colors.cyan,
         orange: colors.orange,
         "warm-gray": colors.warmGray,
+        "true-gray": colors.trueGray,
+        gray: {
+          900: "#202225",
+          800: "#2f3136",
+          700: "#36393f",
+          600: "#4f545c",
+          400: "#d4d7dc",
+          300: "#e3e5e8",
+          200: "#ebedef",
+          100: "#f2f3f5",
+        },
       },
       cursor: {
-        'grab': 'grab',
+        grab: "grab",
       },
       fill: {
         blue: colors.blue,
@@ -24,25 +37,32 @@ module.exports = {
         orange: colors.orange,
       },
       fontFamily: {
-        sans: ["'Open Sans'", ...defaultTheme.fontFamily.sans],
+        sans: ["'Segoe UI'", ...defaultTheme.fontFamily.sans],
+        baloo: ["'Baloo 2'", "cursive", ...defaultTheme.fontFamily.serif],
+        comfortaa: ["'Comfortaa'", "cursive", ...defaultTheme.fontFamily.serif],
+      },
+      fontWeight: {
+        550: "550",
       },
       height: {
-        '124': '31rem',
+        124: "31rem",
       },
       minHeight: {
-        '80vh': '80vh',
+        "80vh": "80vh",
       },
       space: {
-        '18': '4.5rem',
-      }
+        18: "4.5rem",
+      },
     },
   },
   variants: {
     extend: {
-      fill: ['hover', 'group-hover', 'focus'],
-      rotate: ['group-hover'],
-      visibility: ['group-hover'],
+      fill: ["hover", "group-hover", "focus"],
+      opacity: ["dark", "group-focus"],
+      rotate: ["group-hover"],
+      boxShadow: ["dark"],
+      visibility: ["group-hover"],
     },
   },
   plugins: [],
-}
+};

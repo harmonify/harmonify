@@ -7,7 +7,7 @@ interface PanelProps {
 
 export const Panel: FC<PanelProps> = ({children, className}) => {
   return (
-    <div className={`border bg-white border-gray-200 shadow-md hover:shadow-lg rounded-2xl duration-200 ${className}`}>
+    <div className={`border border-gray-200 dark:border-opacity-20 shadow-md hover:shadow-lg dark:shadow-xl dark:hover:shadow-2xl rounded-2xl duration-200 ${className}`}>
       {children}
     </div>
   );

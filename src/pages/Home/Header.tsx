@@ -1,33 +1,45 @@
-import { FC } from 'react'
-import { APP } from '../../config/APP';
-import { getRoles } from '../../utilities/getRoles';
+import { FC } from "react";
+import { APP } from "../../config/APP";
+import { ThemeToggle } from "../../components/ThemeToggle";
 
-interface HeaderProps {
-  
-}
+interface HeaderProps {}
 
 export const Header: FC<HeaderProps> = () => {
-  const roles = getRoles();
+  let roles = null;
+
+  if (APP.author.roles) {
+    roles = APP.author.roles.reduce((acc, curr) => {
+      return acc + ", " + curr;
+    });
+  }
 
   return (
     <header className="relative flex flex-col justify-center items-center min-h-80vh md:min-h-screen overflow-hidden text-center">
-      <div className="absolute block p-80 md:rounded-full bg-pattern opacity-40 z-10 ring-inset ring-8 ring-opacity-60 ring-white" />
+      <div className="absolute block p-80 md:rounded-full bg-pattern opacity-30 dark:bg-pattern-dark dark:opacity-20 z-10 duration-500" />
 
-      <div className="z-50">
+      <div className="mb-10 z-20 font-comfortaa">
         <p className="text-xl md:text-2xl">
-          <span>👋&nbsp;</span>
-          &nbsp;<span className="font-semibold">Welcome, I'm</span>
+          <span className="text-3xl">👋</span>
+          &nbsp;Welcome, I'm
         </p>
-        <h1 className="text-orange-500 text-4xl md:text-5xl font-semibold my-4">{APP.author.name}</h1>
+        <h1 className="text-orange-500 text-4xl md:text-5xl my-4">
+          {APP.author.name}
+        </h1>
         <p className="text-xl md:text-2xl">
-          {(roles !== null) && <>
-            a&nbsp;
-            <span className="font-semibold">{roles}</span>
-          </>}
+          {roles !== null && (
+            <>
+              a&nbsp;
+              <span className="font-semibold">{roles}</span>
+            </>
+          )}
           &nbsp;from&nbsp;
-          <span className="font-semibold text-red-500">{APP.author.nationality}</span>
+          <span className="font-semibold text-red-500">
+            {APP.author.nationality}
+          </span>
         </p>
       </div>
+
+      <ThemeToggle className="z-30 border border-opacity-50 transform scale-150" />
     </header>
   );
-}
+};

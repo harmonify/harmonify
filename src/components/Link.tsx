@@ -26,13 +26,14 @@ export const Link: FC<LinkProps> = ({
 }) => {
   const icon = iconEnabled && (
     <FaLink
-      className={`inline-block mx-1 my-auto opacity-0 group-hover:opacity-60 duration-75 ${iconClassName}`}
+      className={`absolute inline-block mx-2 h-full text-orange-600 opacity-0 group-hover:opacity-100 duration-100 ${iconClassName}`
+      }
     />
   );
 
   return (
     <a
-      className={`${href ? 'group' : 'group pointer-events-none'} ${className}`}
+      className={`relative group ${href === undefined ? 'pointer-events-none' : ''} ${className}`}
       id={id}
       href={href}
       aria-label={label}

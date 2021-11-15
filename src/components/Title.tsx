@@ -13,7 +13,7 @@ export const Title: FC<TitleProps> = ({ children, href, className }) => {
       href={href}
       newTab={false}
       iconEnabled={true}
-      iconClassName="text-3xl transform -translate-y-2"
+      iconClassName="text-3xl -left-12"
     >
       <h2 className={`inline-block text-3xl md:text-4xl font-bold text-center ${className}`}>
         {children}
