@@ -57,11 +57,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      fill: ["hover", "group-hover", "focus"],
-      opacity: ["dark", "group-focus"],
-      rotate: ["group-hover"],
       boxShadow: ["dark"],
-      visibility: ["group-hover"],
+      fill: ["hover", "group-hover", "focus", "group-focus"],
+      opacity: ["dark", "group-hover", "group-focus"],
+      rotate: ["group-hover"],
+      textColor: ["dark", "group-hover", "group-focus"],
+      visibility: ["group-hover", "group-focus"],
     },
   },
   plugins: [],

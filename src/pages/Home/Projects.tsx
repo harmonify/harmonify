@@ -69,7 +69,7 @@ export const Projects: FC<ProjectsProps> = () => {
 const ScrollContainerButton: FC<ScrollContainerButtonProps> = ({ scroll }) => (
   <div className="hidden md:flex self-end space-x-4">
     <button
-      className="p-3 bg-orange-600 hover:bg-orange-500 focus:bg-orange-500 text-2xl text-white rounded-full transform hover:scale-110 duration-200"
+      className="p-3 outline-none bg-orange-600 hover:bg-orange-500 focus:bg-orange-500 text-2xl text-white rounded-full transform hover:scale-110 focus:scale-110 duration-200"
       onClick={() => scroll(-300)}
       aria-label="Scroll Left"
     >
@@ -77,7 +77,7 @@ const ScrollContainerButton: FC<ScrollContainerButtonProps> = ({ scroll }) => (
     </button>
 
     <button
-      className="p-3 bg-orange-600 hover:bg-orange-500 focus:bg-orange-500 text-2xl text-white rounded-full transform hover:scale-110 duration-200"
+      className="p-3 outline-none bg-orange-600 hover:bg-orange-500 focus:bg-orange-500 text-2xl text-white rounded-full transform hover:scale-110 focus:scale-110 duration-200"
       onClick={() => scroll(300)}
       aria-label="Scroll Right"
     >
@@ -96,12 +96,12 @@ const ProjectCard: FC<ProjectCardProps> = ({ id, project }) => {
       <div className="absolute w-full h-full z-10 left-0 top-0 rounded-3xl bg-black opacity-40 group-hover:opacity-50 duration-200" />
 
       <section className="w-full h-full z-20 p-7 flex flex-col justify-center">
-        <div className="opacity-0 group-hover:opacity-100 mt-auto mx-auto space-y-3 duration-200 group">
+        <div className="mt-auto mx-auto space-y-3 group">
           {project.demo && (
             <Link
               href={project.demo}
               newTab={true}
-              className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-orange-600 hover:bg-orange-500 font-semibold text-white group-focus:opacity-100"
+              className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-orange-600 hover:bg-orange-500 focus:bg-orange-500 font-semibold text-white opacity-0 group-hover:opacity-100 focus:opacity-100 transform hover:scale-105 focus:scale-105 hover:translate-y-1 focus:translate-y-1 duration-200"
             >
               <BsEye className="inline-block" />
               <span>&nbsp;View Live Demo</span>
@@ -111,7 +111,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ id, project }) => {
             <Link
               href={project.src}
               newTab={true}
-              className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-blue-gray-700 hover:bg-blue-gray-600 font-semibold text-white group-focus:opacity-100 "
+              className="flex items-center z-30 rounded-xl text-lg px-4 py-3 bg-blue-gray-700 hover:bg-blue-gray-600 focus:bg-blue-gray-600 font-semibold text-white opacity-0 group-hover:opacity-100 focus:opacity-100 transform hover:scale-105 focus:scale-105 hover:translate-y-1 focus:translate-y-1 duration-200"
             >
               <BsGithub className="inline-block" />
               <span>&nbsp;View Source Code</span>

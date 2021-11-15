@@ -11,7 +11,8 @@ interface TimelineProps {
 const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
   <div className={`py-7 px-5 border-l-2 border-orange-500 ${className}`}>
     {experiences?.map((experience, index) => {
-      const { title, titleLink, subtitle, date, description, items } = experience;
+      const { title, titleLink, subtitle, date, description, items } =
+        experience;
 
       return (
         <div key={index} className="mb-10">
@@ -28,16 +29,20 @@ const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
 
           <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-x-12">
             <div className="my-2 col-span-2">
-              <h3 className="text-xl md:text-2xl font-semibold">
+              <div>
                 <Link
                   href={titleLink}
                   newTab
+                  className="inline-block"
                   iconEnabled={titleLink ? true : false}
-                  iconPosition="right"
+                  iconClassName="-right-8"
                 >
-                  {title}
+                  <h3 className="text-xl md:text-2xl font-semibold bg">
+                    {title}
+                  </h3>
                 </Link>
-              </h3>
+              </div>
+
               <h4 className="text-md md:text-lg text-orange-600 font-550">
                 {subtitle}
               </h4>
@@ -48,8 +53,12 @@ const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
 
               <ul className="list-inside list-disc">
                 {items.map((item, i) => (
-                  <li className={item.link ? 'hover:text-orange-600' : '' } key={i}>
-                    <Link href={item.link} newTab={true}>
+                  <li key={i}>
+                    <Link
+                      href={item.link}
+                      newTab={true}
+                      className="hover:text-orange-600 focus:text-orange-600"
+                    >
                       {item.name}
                     </Link>
                   </li>

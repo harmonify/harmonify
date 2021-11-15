@@ -5,21 +5,21 @@
 @layer base {
   @font-face {
     font-family: "Baloo 2";
-    src: url('../assets/fonts/baloo-2/bold.ttf');
+    src: url("../assets/fonts/baloo-2/bold.ttf");
     font-display: swap;
   }
 
   @font-face {
     font-family: "Comfortaa";
     font-weight: 400;
-    src: url('../assets/fonts/comfortaa/regular.ttf');
+    src: url("../assets/fonts/comfortaa/regular.ttf");
     font-display: swap;
   }
 
   @font-face {
     font-family: "Comfortaa";
     font-weight: 600;
-    src: url('../assets/fonts/comfortaa/semibold.ttf');
+    src: url("../assets/fonts/comfortaa/semibold.ttf");
     font-display: swap;
   }
 
@@ -52,9 +52,6 @@
 }
 
 @layer utilities {
-  @import url("./bg-pattern.css");
-  @import url("./bg-pattern-dark.css");
-
   @variants responsive {
     .masonry-2-col {
       column-count: 2;
@@ -65,3 +62,6 @@
     }
   }
 }
+
+@import url("./bg-pattern.css");
+@import url("./bg-pattern-dark.css");

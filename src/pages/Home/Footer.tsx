@@ -53,9 +53,9 @@ const Contact: FC<ContactProps> = () => (
       <Link
         href={`mailto:${APP.author.email}`}
         newTab={true}
-        className="relative inline-block group"
+        className="relative inline-block px-6 py-2 rounded-3xl bg-gradient-to-r from-orange-500 via-orange-600 to-orange-600 duration-500 transform hover:scale-110 hover:translate-y-1 focus:scale-110 focus:translate-y-1 group"
       >
-        <h3 className="px-6 py-2 rounded-3xl tracking-wider text-white text-xl z-50 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-600 duration-500 transform hover:scale-110 translate-y-2 font-baloo">
+        <h3 className="tracking-wider text-white text-xl z-50 font-baloo">
           {APP.author.email}
         </h3>
       </Link>
@@ -69,7 +69,7 @@ const SocialLinkButton: FC<SocialLinkButtonProps> = ({ id, href, children }) => 
     label={`author's ${id}`}
     href={href}
     newTab={true}
-    className="flex items-center justify-center rounded-full bg-white hover:bg-orange-500 border shadow-lg hover:shadow-xl p-4 transform hover:scale-110 cursor-pointer duration-200 group"
+    className="flex items-center justify-center rounded-full bg-white hover:bg-orange-500 focus:bg-orange-500 border shadow-lg hover:shadow-xl focus:shadow-xl p-4 transform hover:scale-110 focus:scale-110 cursor-pointer duration-200 group"
   >
     {children}
   </Link>
@@ -78,11 +78,11 @@ const SocialLinkButton: FC<SocialLinkButtonProps> = ({ id, href, children }) => 
 const SocialLinks: FC<SocialLinksProps> = () => (
   <section id="social-link" className="flex space-x-8">
     <SocialLinkButton id="github" href={APP.author.socials.github}>
-      <BsGithub className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:text-white duration-200" />
+      <BsGithub className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:text-white group-focus:text-white  duration-200" />
     </SocialLinkButton>
 
     <SocialLinkButton id="linkedin" href={APP.author.socials.linkedin}>
-      <BsLinkedin className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:fill-white duration-200" />
+      <BsLinkedin className="text-3xl md:text-4xl dark:text-black group-hover:bg-orange-500 group-hover:fill-white group-focus:fill-white duration-200" />
     </SocialLinkButton>
   </section>
 );

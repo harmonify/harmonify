@@ -7,9 +7,9 @@ interface LinkProps {
   href: string | undefined;
   id?: string;
   label?: string;
+  outlineEnabled?: boolean;
   newTab?: boolean;
   iconEnabled?: boolean;
-  iconPosition?: "left" | "right";
   iconClassName?: string;
 }
 
@@ -20,29 +20,28 @@ export const Link: FC<LinkProps> = ({
   id = "",
   label = "",
   newTab = false,
+  outlineEnabled = false,
   iconEnabled = false,
-  iconPosition = "left",
   iconClassName = "",
 }) => {
   const icon = iconEnabled && (
     <FaLink
-      className={`absolute inline-block mx-2 h-full text-orange-600 opacity-0 group-hover:opacity-100 duration-100 ${iconClassName}`
+      className={`absolute inline-block mx-2 h-full text-orange-600 opacity-0 group-hover:opacity-100 group-focus:opacity-100 duration-100 ${iconClassName}`
       }
     />
   );
 
   return (
     <a
-      className={`relative group ${href === undefined ? 'pointer-events-none' : ''} ${className}`}
+      className={`relative group ${outlineEnabled ? '' : 'outline-none'} ${href === undefined ? 'pointer-events-none' : ''} ${className}`}
       id={id}
       href={href}
       aria-label={label}
       target={newTab ? "_blank" : ""}
       rel="noopener noreferrer"
     >
-      {iconPosition === "left" && icon}
+      {icon}
       {children}
-      {iconPosition === "right" && icon}
     </a>
   );
 };
