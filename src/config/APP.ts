@@ -4,8 +4,8 @@ export const APP : AppInterface = {
   name: "Wendy Surya Wijaya",
   description: "Wendy Surya Wijaya is a freelance web developer from Indonesia.",
   version: "1.0.0",
-  src: "https://www.github.com/harmonify/harmonify.github.io",
-  homepage: "https://harmonify.github.io",
+  src: "https://www.github.com/harmonify/harmonify",
+  homepage: "https://harmonify.netlify.app",
   author: {
     name: "Wendy Surya Wijaya",
     roles: [
@@ -22,9 +22,9 @@ export const APP : AppInterface = {
       {
         title: "Web Portfolio",
         description: "A web portfolio created using React and TypeScript",
-        image: "https://raw.githubusercontent.com/harmonify/harmonify.github.io/main/public/img/banner.png",
-        src: "https://www.github.com/harmonify/harmonify.github.io",
-        demo: "https://harmonify.github.io",
+        image: "https://raw.githubusercontent.com/harmonify/harmonify/main/public/img/banner.png",
+        src: "https://www.github.com/harmonify/harmonify",
+        demo: "https://harmonify.netlify.app",
       },
       {
         title: "Harmonify Blog",

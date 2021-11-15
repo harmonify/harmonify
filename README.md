@@ -1,9 +1,9 @@
 # Hi there! I'm Wendy Surya Wijaya <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-3b5998?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/wendy-surya-wijaya)
-[![Homepage Badge](https://img.shields.io/badge/Homepage-334155?style=flat-square&logo=github&logoColor=white)](https://harmonify.github.io)
+[![Homepage Badge](https://img.shields.io/badge/Homepage-334155?style=flat-square&logo=github&logoColor=white)](https://harmonify.netlify.app)
 
-A freelance web developer from Indonesia. [**My Github Homepage**](https://harmonify.github.io).
+A freelance web developer from Indonesia. [**My Github Homepage**](https://harmonify.netlify.app).
 
 <p float="left">
     <img height="135em" src="https://github-readme-stats.vercel.app/api?username=harmonify&show_icons=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=0F172A&border_color=262626&title_color=EA580C&text_color=FFFFFF&icon_color=EA580C" alt="my stats"></img>
