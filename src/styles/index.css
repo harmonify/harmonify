@@ -52,7 +52,6 @@
 }
 
 @layer utilities {
-  @import url("./blinking-cursor.css");
   @import url("./bg-pattern.css");
   @import url("./bg-pattern-dark.css");
 
