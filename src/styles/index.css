@@ -44,7 +44,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Baloo 2";
+    @apply font-baloo;
   }
 }
 

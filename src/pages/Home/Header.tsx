@@ -22,7 +22,7 @@ export const Header: FC<HeaderProps> = () => {
           <span className="text-3xl">👋</span>
           &nbsp;Welcome, I'm
         </p>
-        <h1 className="text-orange-500 text-4xl md:text-5xl my-4">
+        <h1 className="text-orange-500 text-4xl md:text-5xl font-bold my-4">
           {APP.author.name}
         </h1>
         <p className="text-xl md:text-2xl">
