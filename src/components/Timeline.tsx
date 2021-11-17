@@ -58,6 +58,8 @@ const Timeline: FC<TimelineProps> = ({ className, experiences }) => (
                       href={item.link}
                       newTab={true}
                       className="hover:text-orange-600 focus:text-orange-600"
+                      iconEnabled={item.link ? true : false}
+                      iconClassName="relative float-right -bottom-1 fill-black dark:fill-white group-hover:fill-orange-600 opacity-80"
                     >
                       {item.name}
                     </Link>

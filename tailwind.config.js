@@ -31,6 +31,7 @@ module.exports = {
         grab: "grab",
       },
       fill: {
+        black: colors.black,
         blue: colors.blue,
         red: colors.red,
         white: colors.white,
