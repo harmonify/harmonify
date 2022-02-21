@@ -1,6 +1,6 @@
 import { AppInterface } from '../interfaces/AppInterface';
 
-export const APP : AppInterface = {
+export const APP: AppInterface = {
   name: "Wendy Surya Wijaya",
   description: "Wendy Surya Wijaya is a freelance web developer from Indonesia.",
   version: "1.0.0",
@@ -18,8 +18,7 @@ export const APP : AppInterface = {
     ],
     avatar: "/img/avatar.jpg",
     email: "wendy18.sw@gmail.com",
-    projects: [
-      {
+    projects: [{
         title: "Web Portfolio",
         description: "A web portfolio created using React and TypeScript",
         image: "https://raw.githubusercontent.com/harmonify/harmonify/main/public/img/banner.png",
@@ -75,31 +74,26 @@ export const APP : AppInterface = {
         src: "https://www.github.com/harmonify/keyboard-shop/",
       }
     ],
-    workExperiences: [
-      {
-        title: "Freelance Web Developer",
-        subtitle: "projects.co.id",
-        date: "May 2021 - present",
-        description: "I've been working as a freelance web developer for more than half a year. I've been working on projects such as:",
-        items: [
-          {
-            name: "Building static and dynamic web pages for client",
-          },
-          {
-            name: "Handling CRUD operations for client's CRM"
-          },
-        ]
-      }
-    ],
-    studyExperiences: [
-      {
+    workExperiences: [{
+      title: "Freelance Web Developer",
+      subtitle: "projects.co.id",
+      date: "May 2021 - present",
+      description: "I've been working as a freelance web developer for more than half a year. I've been working on projects such as:",
+      items: [{
+          name: "Building static and dynamic web pages for client",
+        },
+        {
+          name: "Handling CRUD operations for client's CRM"
+        },
+      ]
+    }],
+    studyExperiences: [{
         title: "freeCodeCamp Certifications",
         titleLink: "https://www.freecodecamp.org/",
         subtitle: "freeCodeCamp",
         date: "May 2021 - present",
         description: "Learn how to make a responsive web design with great accessibility by using some of the most popular front end libraries in the industry.",
-        items: [
-          {
+        items: [{
             name: "Responsive Web Design",
             link: "https://www.freecodecamp.org/certification/harmonify/responsive-web-design"
           },
@@ -119,8 +113,7 @@ export const APP : AppInterface = {
         subtitle: "Indosat Ooredoo & Dicoding Indonesia",
         description: "Introduction to the cloud computing, develop back-end APIs using Node.js, and learn best practices along the way.",
         date: "July 2021 - present",
-        items: [
-          {
+        items: [{
             name: "Cloud Practitioner Essentials",
             link: "https://www.dicoding.com/certificates/2VX32106JPYQ",
           },
@@ -139,14 +132,14 @@ export const APP : AppInterface = {
       github: "https://www.github.com/harmonify",
       linkedin: "https://www.linkedin.com/in/wendy-surya-wijaya",
     },
-    skills: [
-      {
+    skills: [{
         title: "HTML and CSS",
         items: [
           "HTML",
           "CSS",
           "Bootstrap",
           "Tailwind CSS",
+          "SASS",
         ],
       },
       {
@@ -155,6 +148,7 @@ export const APP : AppInterface = {
           "JavaScript",
           "TypeScript",
           "PHP",
+          "Python",
         ],
       },
       {
@@ -170,8 +164,8 @@ export const APP : AppInterface = {
           "Laravel",
           "Node.js",
           "React",
-          "Angular (learning)",
-          "NestJS (learning)",
+          "Angular",
+          "Express",
         ],
       },
       {
