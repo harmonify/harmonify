@@ -2,7 +2,7 @@ const colors = require("tailwindcss/colors");
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
@@ -11,11 +11,11 @@ module.exports = {
       },
       colors: {
         amber: colors.amber,
-        "blue-gray": colors.blueGray,
+        "blue-gray": colors.slate,
         cyan: colors.cyan,
         orange: colors.orange,
-        "warm-gray": colors.warmGray,
-        "true-gray": colors.trueGray,
+        "warm-gray": colors.stone,
+        "true-gray": colors.neutral,
         gray: {
           900: "#202225",
           800: "#2f3136",
