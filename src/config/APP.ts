@@ -20,7 +20,7 @@ export const APP: AppInterface = {
     projects: [
       {
         title: "Web Portfolio",
-        description: "A web portfolio created using React and TypeScript",
+        description: "created using React and TypeScript",
         image:
           "https://raw.githubusercontent.com/harmonify/harmonify/main/public/img/banner.png",
         src: "https://www.github.com/harmonify/harmonify",
@@ -28,7 +28,7 @@ export const APP: AppInterface = {
       },
       {
         title: "Harmonify Blog",
-        description: "A personal blog created using Laravel 8",
+        description: "a demo blog created using Laravel 8",
         image:
           "https://raw.githubusercontent.com/harmonify/harmonify-blog/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/harmonify-blog",
@@ -36,52 +36,66 @@ export const APP: AppInterface = {
       },
       {
         title: "Random Quote Machine",
-        description:
-          "A random quote machine created using React, styled with Bootstrap",
+        description: "a created using React and Bootstrap",
         image:
           "https://raw.githubusercontent.com/harmonify/random-quote-machine/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/random-quote-machine/",
         demo: "https://harmonify-rqm.netlify.app/",
       },
       {
-        title: "Markdown Previewer",
-        description: "Markdown Previewer styled with TailwindCSS",
+        title: "Python Scripts",
+        description: "to automate my development workflow",
         image:
-          "https://raw.githubusercontent.com/harmonify/markdown-previewer/main/.github/img/screenshot.png",
-        src: "https://www.github.com/harmonify/markdown-previewer/",
-        demo: "https://harmonify-mp.netlify.app/",
+          "https://raw.githubusercontent.com/harmonify/scripts/main/.github/img/preview.png",
+        src: "https://www.github.com/harmonify/scripts/",
       },
       {
-        title: "Drum Machine",
-        description: "A drum machine created using React",
+        title: "Stock Price Checker",
+        description: "a microservice built with Express.js",
         image:
-          "https://raw.githubusercontent.com/harmonify/drum-machine/main/.github/img/preview.png",
-        src: "https://www.github.com/harmonify/drum-machine/",
-        demo: "https://harmonify-dm.netlify.app/",
+          "https://raw.githubusercontent.com/harmonify/stock-price-checker/main/.github/img/preview.png",
+        src: "https://www.github.com/harmonify/stock-price-checker/",
+        demo: "https://replit.com/@harmonify/fcc-stock-checker",
+      },
+      {
+        title: "Keyboard Shop",
+        description: "created using native PHP",
+        image:
+          "https://raw.githubusercontent.com/harmonify/keyboard-shop/main/.github/img/index-page.png",
+        src: "https://www.github.com/harmonify/keyboard-shop/",
       },
       {
         title: "Pomodoro Clock",
-        description: "25 + 5 clock with React and TypeScript",
+        description: "a 25 + 5 clock created using React",
         image:
           "https://raw.githubusercontent.com/harmonify/pomodoro-clock/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/pomodoro-clock/",
         demo: "https://harmonify-pc.netlify.app/",
       },
       {
-        title: "JavaScript Calculator",
-        description: "Basic calculator with React and TypeScript",
+        title: "Markdown Previewer",
+        description: "styled with TailwindCSS",
         image:
-          "https://raw.githubusercontent.com/harmonify/javascript-calculator/main/.github/img/preview.png",
-        src: "https://www.github.com/harmonify/javascript-calculator/",
-        demo: "https://harmonify-jc.netlify.app/",
+          "https://raw.githubusercontent.com/harmonify/markdown-previewer/main/.github/img/screenshot.png",
+        src: "https://www.github.com/harmonify/markdown-previewer/",
+        demo: "https://harmonify-mp.netlify.app/",
       },
-      {
-        title: "Keyboard Shop",
-        description: "A keyboard shop with native PHP",
-        image:
-          "https://raw.githubusercontent.com/harmonify/keyboard-shop/main/.github/img/index-page.png",
-        src: "https://www.github.com/harmonify/keyboard-shop/",
-      },
+      // {
+      //   title: "Drum Machine",
+      //   description: "A drum machine created using React",
+      //   image:
+      //     "https://raw.githubusercontent.com/harmonify/drum-machine/main/.github/img/preview.png",
+      //   src: "https://www.github.com/harmonify/drum-machine/",
+      //   demo: "https://harmonify-dm.netlify.app/",
+      // },
+      // {
+      //   title: "JavaScript Calculator",
+      //   description: "Basic calculator with React and TypeScript",
+      //   image:
+      //     "https://raw.githubusercontent.com/harmonify/javascript-calculator/main/.github/img/preview.png",
+      //   src: "https://www.github.com/harmonify/javascript-calculator/",
+      //   demo: "https://harmonify-jc.netlify.app/",
+      // },
     ],
     workExperiences: [
       {
@@ -189,7 +203,7 @@ export const APP: AppInterface = {
       },
       {
         title: "Others",
-        items: ["Linux (basic command-line operations)"],
+        items: ["Figma", "Linux (basic command-line operations)"],
       },
     ],
   },
