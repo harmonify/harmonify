@@ -1,7 +1,15 @@
 import { FC, useContext } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { ThemeContext } from "../providers/ThemeProvider";
-import Switch from "react-switch";
+import S from "react-switch";
+
+/*
+  react-switch is built with cjs, using vite production build (rollup)
+  cause some issues with cjs modules.
+  This is a workaround to fix it.
+*/
+// @ts-ignore
+const Switch = S.default ? S.default : S;
 
 interface ThemeToggleProps {
   className?: string;
