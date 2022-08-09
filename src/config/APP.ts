@@ -3,17 +3,17 @@ import { AppInterface } from "../interfaces/AppInterface";
 export const APP: AppInterface = {
   name: "Wendy Surya Wijaya",
   description:
-    "Wendy Surya Wijaya is a freelance web developer from Indonesia.",
+    "Wendy Surya Wijaya is a developer from Indonesia.",
   version: "1.0.0",
   src: "https://www.github.com/harmonify/harmonify",
   homepage: "https://harmonify.netlify.app",
   author: {
     name: "Wendy Surya Wijaya",
-    roles: ["freelance web developer"],
+    roles: ["back-end developer"],
     nationality: "Indonesia",
     about: [
-      "I'm Wendy, a web developer based in Pontianak, Indonesia. I'm currently majoring in Informatics Engineering at STMIK Pontianak.",
-      "I'm passionate about IT, especially in the field of web development and AI. I love to learn new technologies, what problems they are solving, and how I can utilize them to build better things.",
+      "Hello, I'm Wendy. I'm a developer based in Pontianak, Indonesia. I'm currently majoring in Information Technology at STMIK Pontianak. I'm passionate about IT, especially web development and AI.",
+      "I love to learn new technologies in my free time. It always gives me new ideas on developing things while also growing me further as a developer.",
     ],
     avatar: "/img/avatar.jpg",
     email: "wendy18.sw@gmail.com",
@@ -101,9 +101,9 @@ export const APP: AppInterface = {
       {
         title: "Freelance Web Developer",
         subtitle: "projects.co.id",
-        date: "May 2021 - present",
+        date: "May 2021 - June 2022",
         description:
-          "I've been working as a freelance web developer for more than half a year. I've been working on projects such as:",
+          "I've worked as a freelance web developer for a year. I've also handled some projects such as:",
         items: [
           {
             name: "Building static and dynamic web pages for client",
@@ -113,8 +113,23 @@ export const APP: AppInterface = {
           },
         ],
       },
+      {
+        title: "Junior Backend Engineer",
+        subtitle: "PT Populix Informasi Teknologi",
+        date: "July 2022 - present",
+        description: "As a junior backend engineer, I'm responsible for upgrading the existing system under the supervision of the more experienced engineers.",
+        items: [],
+      },
     ],
     studyExperiences: [
+      {
+        title: "Information Technology",
+        titleLink: "https://www.stmikpontianak.ac.id/",
+        subtitle: "STMIK Pontianak",
+        description: "Introduction to basic algorithms, data structures, and how to manage information systems with web-based applications.",
+        date: "Sep 2020 - Sep 2024 (expected)",
+        items: [],
+      },
       {
         title: "freeCodeCamp Certifications",
         titleLink: "https://www.freecodecamp.org/",
@@ -159,7 +174,7 @@ export const APP: AppInterface = {
         subtitle: "Indosat Ooredoo & Dicoding Indonesia",
         description:
           "Introduction to the cloud computing, develop back-end APIs using Node.js, and learn best practices along the way.",
-        date: "July 2021 - present",
+        date: "Jul 2021 - present",
         items: [
           {
             name: "Cloud Practitioner Essentials",

@@ -8,6 +8,8 @@ interface FooterProps {}
 
 interface ContactProps {}
 
+interface ContactEmailProps {}
+
 interface SocialLinkButtonProps {
   id: string;
   href: string;
@@ -19,13 +21,13 @@ interface SocialLinksProps {}
 export const Footer: FC<FooterProps> = () => {
   return (
     <footer className="flex flex-col justify-center items-center py-8 md:py-16 space-y-6">
-      <Contact />
+      <ContactStatusWorking />
       <SocialLinks />
     </footer>
   );
 };
 
-const Contact: FC<ContactProps> = () => (
+const ContactStatusLookingForWork: FC<ContactProps> = () => (
   <Panel className="w-11/12 max-w-5xl flex flex-col lg:flex-row justify-between items-center px-16 py-12 space-y-8 lg:space-y-0 lg:space-x-18 dark:bg-blue-gray-900 dark:bg-opacity-60">
     <div className="space-y-4 lg:w-2/3 text-center lg:text-left">
       <h2 className="text-3xl ">
@@ -39,7 +41,27 @@ const Contact: FC<ContactProps> = () => (
       </p>
     </div>
 
-    <section id="contact" className="space-y-6 text-center flex flex-col lg:w-1/3">
+    <ContactEmail />
+  </Panel>
+);
+
+const ContactStatusWorking: FC<ContactProps> = () => (
+  <Panel className="w-11/12 max-w-5xl flex flex-col lg:flex-row justify-between items-center px-16 py-12 space-y-8 lg:space-y-0 lg:space-x-18 dark:bg-blue-gray-900 dark:bg-opacity-60">
+    <div className="space-y-4 lg:w-2/3 text-center lg:text-left">
+      <h2 className="text-3xl ">
+        <span className="text-orange-600">Hello there..!</span>
+      </h2>
+      <p className="text-lg font-comfortaa">
+        Interested to connect and say hi to me? I'd love to hear from you.
+      </p>
+    </div>
+
+    <ContactEmail />
+  </Panel>
+);
+
+const ContactEmail: FC<ContactEmailProps> = () => (
+  <section id="contact" className="space-y-6 text-center flex flex-col lg:w-1/3">
       <Link
         href="#contact"
         iconEnabled={true}
@@ -60,7 +82,6 @@ const Contact: FC<ContactProps> = () => (
         </h3>
       </Link>
     </section>
-  </Panel>
 );
 
 const SocialLinkButton: FC<SocialLinkButtonProps> = ({ id, href, children }) => (
