@@ -2,8 +2,7 @@ import { AppInterface } from "../interfaces/AppInterface";
 
 export const APP: AppInterface = {
   name: "Wendy Surya Wijaya",
-  description:
-    "Wendy Surya Wijaya is a developer from Indonesia.",
+  description: "Wendy Surya Wijaya is a developer from Indonesia.",
   version: "1.0.0",
   src: "https://www.github.com/harmonify/harmonify",
   homepage: "https://harmonify.netlify.app",
@@ -117,8 +116,18 @@ export const APP: AppInterface = {
         title: "Junior Backend Engineer",
         subtitle: "PT Populix Informasi Teknologi",
         date: "July 2022 - present",
-        description: "As a junior backend engineer, I'm responsible for upgrading the existing system under the supervision of the more experienced engineers.",
-        items: [],
+        description:
+          "As a Junior Backend Engineer, I'm responsible for building the new features and maintaining the existing system under the supervision of the more experienced engineers.",
+        items: [
+          {
+            name: "Populix for Business",
+            link: "https://enterprise.populix.co/",
+          },
+          {
+            name: "Populix for Respondents",
+            link: "https://info.populix.co/for-respondents/",
+          },
+        ],
       },
     ],
     studyExperiences: [
@@ -126,7 +135,8 @@ export const APP: AppInterface = {
         title: "Information Technology",
         titleLink: "https://www.stmikpontianak.ac.id/",
         subtitle: "STMIK Pontianak",
-        description: "Introduction to basic algorithms, data structures, and how to manage information systems with web-based applications.",
+        description:
+          "Introduction to basic algorithms, data structures, and how to manage information systems with web-based applications.",
         date: "Sep 2020 - Sep 2024 (expected)",
         items: [],
       },
@@ -206,11 +216,11 @@ export const APP: AppInterface = {
       },
       {
         title: "Database",
-        items: ["MySQL", "MongoDB"],
+        items: ["MySQL", "MongoDB", "PostgreSQL"],
       },
       {
         title: "Frameworks",
-        items: ["Laravel", "Node.js", "React", "Angular", "Express"],
+        items: ["Laravel", "Node.js", "React", "Angular", "Express", "NestJS"],
       },
       {
         title: "Tools",
