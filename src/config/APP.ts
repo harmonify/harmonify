@@ -31,7 +31,7 @@ export const APP: AppInterface = {
         image:
           "https://raw.githubusercontent.com/harmonify/harmonify-blog/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/harmonify-blog",
-        demo: "https://harmonify-blog.herokuapp.com/",
+        // demo: "https://harmonify-blog.herokuapp.com/",
       },
       {
         title: "Random Quote Machine",
@@ -48,14 +48,14 @@ export const APP: AppInterface = {
           "https://raw.githubusercontent.com/harmonify/scripts/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/scripts/",
       },
-      {
-        title: "Stock Price Checker",
-        description: "a microservice built with Express.js",
-        image:
-          "https://raw.githubusercontent.com/harmonify/stock-price-checker/main/.github/img/preview.png",
-        src: "https://www.github.com/harmonify/stock-price-checker/",
-        demo: "https://replit.com/@harmonify/fcc-stock-checker",
-      },
+      // {
+      //   title: "Stock Price Checker",
+      //   description: "a microservice built with Express.js",
+      //   image:
+      //     "https://raw.githubusercontent.com/harmonify/stock-price-checker/main/.github/img/preview.png",
+      //   src: "https://www.github.com/harmonify/stock-price-checker/",
+      //   demo: "https://replit.com/@harmonify/fcc-stock-checker",
+      // },
       {
         title: "Keyboard Shop",
         description: "created using native PHP",
@@ -102,13 +102,13 @@ export const APP: AppInterface = {
         subtitle: "projects.co.id",
         date: "May 2021 - June 2022",
         description:
-          "I've worked as a freelance web developer for a year. I've also handled some projects such as:",
+          "I've worked as a freelance web developer for a year. I've handled some projects such as:",
         items: [
           {
-            name: "Building static and dynamic web pages for client",
+            name: "Build static or dynamic landing pages for the clients",
           },
           {
-            name: "Handling CRUD operations for client's CRM",
+            name: "Build new features into existing client's CRM",
           },
         ],
       },
@@ -212,23 +212,27 @@ export const APP: AppInterface = {
       },
       {
         title: "Programming Languages",
-        items: ["JavaScript", "TypeScript", "PHP", "Python"],
+        items: ["Golang", "JavaScript", "TypeScript", "PHP", "Python", "Bash"],
+      },
+      {
+        title: "Web Frameworks",
+        items: ["Express", "NestJS", "Gin", "Laravel", "React", "Angular"],
       },
       {
         title: "Database",
-        items: ["MySQL", "MongoDB", "PostgreSQL"],
+        items: ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Elasticsearch", "Firebase"],
       },
       {
-        title: "Frameworks",
-        items: ["Laravel", "Node.js", "React", "Angular", "Express", "NestJS"],
+        title: "APIs",
+        items: ["REST API", "gRPC"],
       },
       {
-        title: "Tools",
-        items: ["Git", "GitHub", "Postman", "Docker"],
+        title: "Networking",
+        items: ["Nginx", "Caddy", "Cloudflare Tunnel", "Tailscale"],
       },
       {
-        title: "Others",
-        items: ["Figma", "Linux (basic command-line operations)"],
+        title: "Other tools",
+        items: ["Git", "GitHub", "Github Actions", "Ansible", "Postman", "Docker", "Linux", "Figma"],
       },
     ],
   },
