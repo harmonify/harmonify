@@ -15,7 +15,7 @@ export const APP: AppInterface = {
       "I love to learn new technologies in my free time. It always gives me new ideas on developing things while also growing me further as a developer.",
     ],
     avatar: "/img/avatar.jpg",
-    email: "wendy18.sw@gmail.com",
+    email: "me@harmonify.online",
     projects: [
       {
         title: "Web Portfolio",
@@ -27,15 +27,14 @@ export const APP: AppInterface = {
       },
       {
         title: "Harmonify Blog",
-        description: "a demo blog created using Laravel 8",
+        description: "a blog created using Laravel 8",
         image:
           "https://raw.githubusercontent.com/harmonify/harmonify-blog/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/harmonify-blog",
-        demo: "https://harmonify-blog.herokuapp.com/",
       },
       {
         title: "Random Quote Machine",
-        description: "a created using React and Bootstrap",
+        description: "created using React and Bootstrap",
         image:
           "https://raw.githubusercontent.com/harmonify/random-quote-machine/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/random-quote-machine/",
@@ -47,21 +46,6 @@ export const APP: AppInterface = {
         image:
           "https://raw.githubusercontent.com/harmonify/scripts/main/.github/img/preview.png",
         src: "https://www.github.com/harmonify/scripts/",
-      },
-      {
-        title: "Stock Price Checker",
-        description: "a microservice built with Express.js",
-        image:
-          "https://raw.githubusercontent.com/harmonify/stock-price-checker/main/.github/img/preview.png",
-        src: "https://www.github.com/harmonify/stock-price-checker/",
-        demo: "https://replit.com/@harmonify/fcc-stock-checker",
-      },
-      {
-        title: "Keyboard Shop",
-        description: "created using native PHP",
-        image:
-          "https://raw.githubusercontent.com/harmonify/keyboard-shop/main/.github/img/index-page.png",
-        src: "https://www.github.com/harmonify/keyboard-shop/",
       },
       {
         title: "Pomodoro Clock",
@@ -79,22 +63,6 @@ export const APP: AppInterface = {
         src: "https://www.github.com/harmonify/markdown-previewer/",
         demo: "https://harmonify-mp.netlify.app/",
       },
-      // {
-      //   title: "Drum Machine",
-      //   description: "A drum machine created using React",
-      //   image:
-      //     "https://raw.githubusercontent.com/harmonify/drum-machine/main/.github/img/preview.png",
-      //   src: "https://www.github.com/harmonify/drum-machine/",
-      //   demo: "https://harmonify-dm.netlify.app/",
-      // },
-      // {
-      //   title: "JavaScript Calculator",
-      //   description: "Basic calculator with React and TypeScript",
-      //   image:
-      //     "https://raw.githubusercontent.com/harmonify/javascript-calculator/main/.github/img/preview.png",
-      //   src: "https://www.github.com/harmonify/javascript-calculator/",
-      //   demo: "https://harmonify-jc.netlify.app/",
-      // },
     ],
     workExperiences: [
       {
@@ -115,7 +83,7 @@ export const APP: AppInterface = {
       {
         title: "Junior Backend Engineer",
         subtitle: "PT Populix Informasi Teknologi",
-        date: "July 2022 - present",
+        date: "July 2022 - June 2024",
         description:
           "As a Junior Backend Engineer, I'm responsible for building the new features and maintaining the existing system under the supervision of the more experienced engineers.",
         items: [
@@ -144,7 +112,7 @@ export const APP: AppInterface = {
         title: "freeCodeCamp Certifications",
         titleLink: "https://www.freecodecamp.org/",
         subtitle: "freeCodeCamp",
-        date: "May 2021 - present",
+        date: "May 2021 - June 2022",
         description:
           "Learn how to make a responsive web design with great accessibility by using some of the most popular libraries and frameworks in the industry.",
         items: [
@@ -184,7 +152,7 @@ export const APP: AppInterface = {
         subtitle: "Indosat Ooredoo & Dicoding Indonesia",
         description:
           "Introduction to the cloud computing, develop back-end APIs using Node.js, and learn best practices along the way.",
-        date: "Jul 2021 - present",
+        date: "July 2021",
         items: [
           {
             name: "Cloud Practitioner Essentials",
