@@ -11,4 +11,4 @@ A web developer from Indonesia. [**My Github Homepage**](https://harmonify.netli
 <!--     <img height="135em" src="https://github-readme-stats.vercel.app/api/top-langs?username=harmonify&layout=compact&show_icons=true&langs_count=6&hide=blade&show=6&count_private=true&include_all_commits=true&bg_color=0F172A&border_color=262626&title_color=EA580C&text_color=FFFFFF&icon_color=EA580C&show_icons=true" alt="my top langs"></img> -->
 </p>
 
-![Visitors Badge](https://visitor-badge.glitch.me/badge?page_id=harmonify.harmonify&left_color=orange&right_color=black&text_color=white&background_color=black&font_size=20&font_family=Arial&font_weight=bold&font_style=normal&text=visitors)
+<!-- ![Visitors Badge](https://visitor-badge.glitch.me/badge?page_id=harmonify.harmonify&left_color=orange&right_color=black&text_color=white&background_color=black&font_size=20&font_family=Arial&font_weight=bold&font_style=normal&text=visitors) -->
