@@ -77,7 +77,7 @@ const ContactEmail: FC<ContactEmailProps> = () => (
         newTab={true}
         className="relative inline-block px-6 py-2 rounded-3xl bg-gradient-to-r from-orange-500 via-orange-600 to-orange-600 duration-500 transform hover:scale-110 hover:translate-y-1 focus:scale-110 focus:translate-y-1 group"
       >
-        <h3 className="tracking-wider text-white text-xl z-50 font-baloo">
+        <h3 className="tracking-wider text-white text-l z-50 font-baloo">
           {APP.author.email}
         </h3>
       </Link>

@@ -11,11 +11,12 @@ export const APP: AppInterface = {
     roles: ["back-end developer"],
     nationality: "Indonesia",
     about: [
-      "Hello, I'm Wendy. I'm a developer based in Pontianak, Indonesia. I'm currently majoring in Information Technology at STMIK Pontianak. I'm passionate about IT, especially web development and AI.",
-      "I love to learn new technologies in my free time. It always gives me new ideas on developing things while also growing me further as a developer.",
+      "Hello, I’m Wendy, a passionate web developer based in Pontianak, Indonesia. With a degree in Informatics Engineering from STMIK Pontianak, I’ve developed a strong foundation in building scalable web solutions and optimizing backend systems.",
+      "In my professional journey, I’ve designed and developed efficient backend systems, focusing on performance and scalability. I've also collaborated with other people to deliver full-stack solutions, integrating innovative and modern technologies to solve complex problems.",
+      "I’m always eager to explore new technologies and frameworks, which not only broadens my skill set but also fuels my drive for innovation. Let’s connect and build something impactful together!",
     ],
     avatar: "/img/avatar.jpg",
-    email: "me@harmonify.online",
+    email: "wendysuryawijaya@gmail.com",
     projects: [
       {
         title: "Web Portfolio",
@@ -73,27 +74,37 @@ export const APP: AppInterface = {
           "I've worked as a freelance web developer for a year. I've handled some projects such as:",
         items: [
           {
-            name: "Build static or dynamic landing pages for the clients",
+            name: "Collaborated with clients to understand business goals, translating them into functional and visually compelling websites.",
           },
           {
-            name: "Build new features into existing client's CRM",
+            name: "Designed and developed custom static and dynamic web pages, tailoring each solution to meet unique client needs and {name:industry standards.",
+          },
+          {
+            name: "Streamlined client operations by building efficient CRUD functionalities for their CRM systems.",
+          },
+          {
+            name: "Leveraged modern web technologies to optimize performance and user experience, driving higher client satisfaction.",
           },
         ],
       },
       {
-        title: "Junior Backend Engineer",
+        title: "Backend Engineer",
         subtitle: "PT Populix Informasi Teknologi",
         date: "July 2022 - June 2024",
         description:
           "As a Junior Backend Engineer, I'm responsible for building the new features and maintaining the existing system under the supervision of the more experienced engineers.",
         items: [
           {
-            name: "Populix for Business",
-            link: "https://enterprise.populix.co/",
+            name: "Played a key role in API design and documentation, enhancing scalability and cross-team collaboration.",
           },
           {
-            name: "Populix for Respondents",
-            link: "https://info.populix.co/for-respondents/",
+            name: "Achieved up to a 40% reduction in response times by optimizing database queries and caching strategies, enhancing system scalability and user experience.",
+          },
+          {
+            name: "Migrated monolithic systems to scalable microservices architecture, enabling efficient cross-service communication and streamlining data synchronization using gRPC and RESTful APIs.",
+          },
+          {
+            name: "Maintained high unit and integration test coverage, ensuring code reliability and reducing regression risks.",
           },
         ],
       },
@@ -104,8 +115,8 @@ export const APP: AppInterface = {
         titleLink: "https://www.stmikpontianak.ac.id/",
         subtitle: "STMIK Pontianak",
         description:
-          "Introduction to basic algorithms, data structures, and how to manage information systems with web-based applications.",
-        date: "Sep 2020 - Sep 2024 (expected)",
+          "During my time at STMIK Pontianak, I gained hands-on experience in designing and developing software using modern cloud services, including Google Cloud Platform (GCP) and Firebase. My studies also deepened my knowledge of database design and scalable system architectures, preparing me to deliver high-performance, user-centric web solutions.",
+        date: "Sep 2020 - Sep 2024",
         items: [],
       },
       {
@@ -188,7 +199,15 @@ export const APP: AppInterface = {
       },
       {
         title: "Database",
-        items: ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Elasticsearch", "Firebase"],
+        items: [
+          "MySQL",
+          "PostgreSQL",
+          "SQLite",
+          "MongoDB",
+          "Redis",
+          "Elasticsearch",
+          "Firebase",
+        ],
       },
       {
         title: "APIs",
@@ -200,7 +219,16 @@ export const APP: AppInterface = {
       },
       {
         title: "Other tools",
-        items: ["Git", "GitHub", "Github Actions", "Ansible", "Postman", "Docker", "Linux", "Figma"],
+        items: [
+          "Git",
+          "GitHub",
+          "Github Actions",
+          "Ansible",
+          "Postman",
+          "Docker",
+          "Linux",
+          "Figma",
+        ],
       },
     ],
   },

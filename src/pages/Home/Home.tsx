@@ -18,9 +18,9 @@ export const Home: FC<HomeProps> = () => {
       <Header />
       <About />
       <Projects />
-      <Skills />
       <WorkExperiences />
       <StudyExperiences />
+      <Skills />
       <Footer />
     </div>
   );
